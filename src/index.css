@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(0, 255, 208);
+}
+.centerit{
+  text-align: center;
+  margin-left: auto;
+  padding: 30px;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 200px;
+  background-color: rgb(219, 206, 195);
+  font-family: 'Lexend Mega', sans-serif;
+  border-radius: 25px;
+  
+}
