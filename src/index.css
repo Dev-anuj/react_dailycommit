@@ -1,6 +1,11 @@
-body{
-  background-color: rgb(140, 228, 212);
+*{
+  padding: 0px;
+  margin: 0px;
 }
+body{
+  background-color:#20232a;
+}
+
 .centerit{
   text-align: center;
   margin-left: auto;
@@ -26,29 +31,52 @@ body{
   background-color: white;
   margin-right: 100px;
   padding-bottom: 20px;
-  
+
+  margin-bottom: 80px;
+  border-radius: 25px;
  
-}
-.cards:hover{
-  transform: scale(1.2) rotate(0.1deg);
 }
 
 .card_category{
-  margin-left: 34%;
-  font-size: 30px;
+  margin-left: 35%;
+  font-size: 20px;
+  font-family: 'Lexend Mega', sans-serif;
 }
 
 .card_title{
-  font-size: 13px;
+  font-size: 11px;
   text-align: center;
   padding: 10px;
+  font-family: 'Lexend Mega', sans-serif;
+  margin-bottom: 20px;
+  
+}
+.headtitle{
+  text-align: center;
+  background-color: bisque;
+  margin-bottom: 80px;
+  padding: 30px;
+  font-family: 'Lexend Mega', sans-serif;
 }
 
 .buttonof{
   margin-left: 30%;
+  
+  background-color:#20232a ;
+  border: none;
+  padding: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  color: #61dafb;
 }
 .card_img {
   
   width: 100%;
   padding: 0px;
+  height: 250px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+ 
+  
 }
