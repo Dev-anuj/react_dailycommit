@@ -16,6 +16,7 @@ import Match from './Match';
 import Notmatch from './Notmatch';
 import Hook from './Hook';
 import Hooktimechallenge from './Hooktimechallenge';
+import Clock from './Clock';
 
 // const type="Action";
 
@@ -67,12 +68,20 @@ function App(){
       
       </div>    
 
-       */ }
-       
-  
-        <div className="hookdesign">
+
+       <div className="hookdesign">
         <Hooktimechallenge />
         </div>
+
+       */ }
+       
+
+       <div className="hookdesign">
+        <Clock />
+        </div>
+
+  
+       
     </>
     );
 }
