@@ -54,9 +54,10 @@ body{
 .headtitle{
   text-align: center;
   background-color: bisque;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   padding: 30px;
   font-family: 'Lexend Mega', sans-serif;
+
 }
 
 .buttonof{
@@ -79,4 +80,23 @@ body{
   border-top-right-radius: 25px;
  
   
+}
+
+
+/* slot machine */
+
+.ekbox{
+  text-align: center;
+  background-color: azure;
+  width: 30%;
+  height: 400px;
+  margin: auto;
+  border: 5px solid black;
+ 
+}
+.spacedown{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
 }
