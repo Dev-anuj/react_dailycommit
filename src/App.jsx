@@ -14,6 +14,7 @@ import Slotmachine from './Slotmachine'
 import Match from './Match';
 
 import Notmatch from './Notmatch';
+import Hook from './Hook';
 
 // const type="Action";
 
@@ -36,8 +37,8 @@ function App(){
         {(type==="Action")? <Action />:<Thriller />}
         </div> 
           
-       */ }
 
+          
        <h1 className="headtitle">🎰 Slot Machine 🎰</h1>
        <div className="ekbox">
        <div className="spacedown">
@@ -59,8 +60,12 @@ function App(){
        </div>
        </div>
 
+       */ }
+     <div className='hookdesign'>
+       <Hook 
+       thing={0} />
       
-           
+      </div>      
   
         
         

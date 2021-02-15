@@ -100,3 +100,39 @@ body{
   padding-bottom: 20px;
   border-bottom: 2px solid black;
 }
+
+.hookdesign{
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+}
+.hookbutton{
+  background-color: blanchedalmond;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  color: rgb(33, 107, 175);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-style: none;
+  border: 1px solid black;
+}
+
+.hooktext{
+  color: rgb(33, 107, 175);
+  font-size: 50px;
+}
+.hookbox{
+  background-color: whitesmoke;
+  width: 30%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: rgba(98, 181, 248, 0.2) 0px 7px 29px 0px;
+}
+.hookbox:hover{
+  box-shadow: rgba(98, 181, 248, 0.2) 0px 7px 29px 0px;
+}
