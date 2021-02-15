@@ -1,5 +1,9 @@
 today 
+<<<<<<< HEAD
 1. Hook app.
+=======
+1. Buid mini slot machine.
+>>>>>>> 94fcd3545f166857110e26d38b3d3f44665f8118
 
 
 
