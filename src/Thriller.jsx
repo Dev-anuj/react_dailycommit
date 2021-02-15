@@ -2,7 +2,11 @@ import React from 'react';
 import Sdata from './Sdata';
 import Card from './Card'
 
-const Action=()=>{
+
+
+
+
+const Thriller=()=>{
 
     return (
         <>
@@ -33,4 +37,4 @@ const Action=()=>{
 
 }
 
-export default Action;
+export default Thriller;

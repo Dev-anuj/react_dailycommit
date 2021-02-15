@@ -1,12 +1,6 @@
-today learned about 
-1. if to many dta then how to use propes
-2. fat arrow 
-3. mmapping  
-4. short for comment
-5. react developer tool
-6. key value must for every child when use map
-7. if else in react
-8. ternary operator.
+today 
+1. Hook app.
+
 
 
 
