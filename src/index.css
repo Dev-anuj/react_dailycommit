@@ -136,3 +136,51 @@ body{
 .hookbox:hover{
   box-shadow: rgba(98, 181, 248, 0.2) 0px 7px 29px 0px;
 }
+
+/*click me challenge */
+.clickbutton{
+
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bluebackground{
+  border-radius: 10px;
+}
+.inputspace{
+  border-radius: 10px;
+  margin-top: 40px;
+width: 53%;
+  padding: 10px;
+  text-align: center;
+  border-style: none;
+  
+}
+.bluebackground{
+  background-color: #61dafb;
+  width: 50%;
+  margin: auto;
+  padding: 70px;
+}
+
+
+.buttonofform{
+  display: block;
+  margin: auto;
+  border-radius: 9px;
+  background-color: rgb(243, 199, 53);
+  margin-top: 30px;
+
+ border: 2px solid black;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
