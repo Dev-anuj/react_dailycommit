@@ -214,3 +214,84 @@ width: 53%;
 
 }
 
+.todobox{
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  width: 24%;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+.todoinside{
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  
+}
+.todoinput{
+  margin-top: 20px;
+  margin-left: 10%;
+ background-color: rgb(255, 255, 255);
+ color:  rgb(107, 45, 165);
+ 
+  outline: none;
+  
+ height: 25px;
+ width: 190px;
+ text-align: center;
+ border: none;
+ border-bottom:2px solid rgb(107, 45, 165);
+ font-family: 'Lexend Mega', sans-serif; 
+  
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.4;
+ 
+}
+.todobutton{
+ margin-left: 20%;
+ background-color: blueviolet; /* Green */
+ border: none;
+ border-radius: 20px;
+ color: rgb(255, 255, 255);
+ padding: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ text-align: center;
+ font-size: 16px;
+ font-weight: bold;
+ cursor: pointer;
+ outline: none;
+ 
+}
+.todobutton:hover{
+  background-color: #63d472; /* Green */
+  color: white;
+
+}
+.itemvalue{
+  font-family: 'Lexend Mega', sans-serif; 
+  padding-left: 30px;
+  padding-bottom: 14px;
+  color: blueviolet;
+  list-style: none;
+
+  
+}
+
+.todohead{
+  text-align: center;
+  font-family: 'Lexend Mega', sans-serif; 
+  font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:  rgb(107, 45, 165);
+  color: white;
+}
+.fonta{
+  margin-right: 25px;
+  cursor: pointer;
+}
+.fonta:hover{
+  color: rgb(156, 15, 15);
+}
