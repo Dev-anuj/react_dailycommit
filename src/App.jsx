@@ -19,6 +19,8 @@ import Hooktimechallenge from './Hooktimechallenge';
 import Clock from './Clock';
 import Uionclick from './Uionclick';
 import Forms from './Forms';
+import Loginforms from './Loginform';
+import { BoltLoaderComponent } from './Loader';
 
 // const type="Action";
 
@@ -82,14 +84,23 @@ function App(){
         </div>
        
 
-       */ }
-       
-
-     
-
         <div className="hookdesign">
        <Uionclick />
         </div>
+
+        <div className="hookdesign"><Loginforms/>
+      </div>
+      
+
+       */ }
+       
+
+     {/* <BoltLoaderComponent /> */}
+       
+     <div className="hookdesign">
+     <Loginforms/>
+    </div>
+
        
        
     </>

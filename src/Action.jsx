@@ -2,6 +2,7 @@ import React from 'react';
 import Sdata from './Sdata';
 import Card from './Card'
 import Notmatch from './Notmatch';
+import './index.css';
 
 const Action=()=>{
 
@@ -13,6 +14,8 @@ const Action=()=>{
             title={Sdata[0].title}
             cat={Sdata[0].cat}
             link={Sdata[0].link}
+           
+            
         />
         <Card
             Key={Sdata[1].id}
