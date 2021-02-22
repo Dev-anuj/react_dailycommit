@@ -23,6 +23,7 @@ import Loginforms from './Loginform';
 import { BoltLoaderComponent } from './Loader';
 import Todo from './Todo';
 import Incrementdecreament from './Incrementdecreament';
+import Bootstraptest from './Bootstraptest';
 
 // const type="Action";
 
@@ -103,11 +104,20 @@ function App(){
      <Loginforms/>
     </div> */}
 
-    {/* <Todo /> */}
+     
+      
+      {/*  */}
+    
 
-    <div className="hookdesign">
+    {/* <div className="hookdesign">
     <Incrementdecreament />
+    </div>  */}
+    
+    <div className="hookdesign">
+    
+    <Todo />
     </div> 
+    <Bootstraptest/>
    
 
        

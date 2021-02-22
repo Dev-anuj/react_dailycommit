@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import Todolist from './Todolist';
+import AddIcon from '@material-ui/icons/Add';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
 
 const Todo=()=>{
 
@@ -28,10 +31,12 @@ const Todo=()=>{
         })
     };
 
-
-
-
-
+    const keyPressed=(event)=> {
+        if (event.key === "Enter") {
+         whenclick();
+        }
+      };
+        
     return(
         <>
         <div className="todobox">
@@ -39,8 +44,8 @@ const Todo=()=>{
            <h3 className="todohead">To Do app</h3>
             <br></br>
             <div className="todoinside">
-                <input className="todoinput" onChange={inputElement} name="additem" value={data} placeholder="add item"></input>
-                <button className="todobutton" onClick={whenclick}>+</button>
+                <TextField id="outlined-basic" className="todoinput" style={{marginLeft:"20%"}} onKeyPress={keyPressed} onChange={inputElement} name="additem" value={data} label="Enter Item" />
+                <Button  onClick={whenclick}><AddIcon/></Button>
             <br></br>
             <br></br>
             <br></br>
