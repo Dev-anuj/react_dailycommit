@@ -22,6 +22,7 @@ import Forms from './Forms';
 import Loginforms from './Loginform';
 import { BoltLoaderComponent } from './Loader';
 import Todo from './Todo';
+import Incrementdecreament from './Incrementdecreament';
 
 // const type="Action";
 
@@ -102,7 +103,12 @@ function App(){
      <Loginforms/>
     </div> */}
 
-    <Todo />
+    {/* <Todo /> */}
+
+    <div className="hookdesign">
+    <Incrementdecreament />
+    </div> 
+   
 
        
        
