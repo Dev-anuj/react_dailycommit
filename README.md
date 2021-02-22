@@ -1,7 +1,6 @@
 
 today 
-1. To do app updated with material ui .
-2. how to use bootstrap in react
+1. material ui react website
 
 
 
