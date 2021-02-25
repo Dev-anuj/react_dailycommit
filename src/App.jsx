@@ -28,6 +28,7 @@ import Reactbootstrapwebsite from './Reactbootstrapwebsite';
 import Anujkeep from './Anujkeep';
 import Contextapi from './Contextapi';
 import Useeffect from './Useeffect';
+import Titlechange from './Titlechange';
 
 // const type="Action";
 
@@ -130,7 +131,7 @@ function App(){
     {/* <Contextapi/> */}
 
     <div className="hookdesign">
-    <Useeffect/>
+    <Titlechange/>
         </div>
 
     
