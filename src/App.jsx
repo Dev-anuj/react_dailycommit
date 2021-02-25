@@ -26,7 +26,8 @@ import Incrementdecreament from './Incrementdecreament';
 import Bootstraptest from './Bootstraptest';
 import Reactbootstrapwebsite from './Reactbootstrapwebsite';
 import Anujkeep from './Anujkeep';
-import Contextapi from './Contextapi'
+import Contextapi from './Contextapi';
+import Useeffect from './Useeffect';
 
 // const type="Action";
 
@@ -126,8 +127,13 @@ function App(){
     */}
 
     {/* <Anujkeep  /> */}
-    <Contextapi/>
+    {/* <Contextapi/> */}
 
+    <div className="hookdesign">
+    <Useeffect/>
+        </div>
+
+    
        
        
     </>

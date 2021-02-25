@@ -1,6 +1,6 @@
 
 today 
-1. Usecontext fels us to less code remove consumer metod of context api .
+1. Useeffect usage .
 
 
 
