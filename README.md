@@ -1,6 +1,6 @@
 
 today 
-1. ContextApi call in comp a to componet c, why not use props.
+1. Usecontext fels us to less code remove consumer metod of context api .
 
 
 

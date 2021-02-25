@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FirstName , LastName } from './Contextapi';
 
 
-const CompC =(props)=>{
+const CompC =()=>{
+
+    const fname=useContext(FirstName);
+    const lname=useContext(LastName);
     return(
         <>
-         <FirstName.Consumer> 
+
+
+        <h1>my name is {fname} {lname}</h1>
+
+
+
+         {/* <FirstName.Consumer> 
         
         {(fname)=>{
             return(
@@ -17,7 +26,7 @@ const CompC =(props)=>{
             );
             
         }}
-        </FirstName.Consumer> 
+        </FirstName.Consumer>  */}
        
 
         {/* <FirstName.Consumer> 
