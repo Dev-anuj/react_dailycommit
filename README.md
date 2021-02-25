@@ -1,6 +1,6 @@
 
 today 
-1. material ui react website
+1. ContextApi call in comp a to componet c, why not use props.
 
 
 

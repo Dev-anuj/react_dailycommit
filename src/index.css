@@ -239,11 +239,11 @@ width: 53%;
  
   
 }
-::placeholder {
+/* ::placeholder {
   color: rgb(255, 255, 255);
   opacity: 0.4;
  
-}
+} */
 .todobutton{
  margin-left: 20%;
  background-color: blueviolet; /* Green */
@@ -314,6 +314,45 @@ width: 53%;
 }
 .buttonofde:hover{
   color: red !important;
+
+
+}
+#page-container {
+  position: relative;
+  min-height: 50vh;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+    
+  
+
+}
+.keepwritebox{
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  background-color: #dc3545;
+  width:30%;
+  padding: 30px;
+  color: #000000;
+  border-radius: 10px;
+  outline: none;
+
+}
+.keepwriteboxi{
+margin: 20px;
+  text-align: center;
+  margin-top: 40px;
+  background-color: #252525;
+  width:30%;
+  padding: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  
 
 
 }
