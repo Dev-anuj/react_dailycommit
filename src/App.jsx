@@ -29,6 +29,7 @@ import Anujkeep from './Anujkeep';
 import Contextapi from './Contextapi';
 import Useeffect from './Useeffect';
 import Titlechange from './Titlechange';
+import Pokemon from './Pokemon';
 
 // const type="Action";
 
@@ -36,8 +37,13 @@ import Titlechange from './Titlechange';
 
 
 function App(){
+
+    
+
+
+
     return (<>
-    { /*
+    { /* 
         <Heading />
         <Para />
         <List/>
@@ -130,11 +136,13 @@ function App(){
     {/* <Anujkeep  /> */}
     {/* <Contextapi/> */}
 
-    <div className="hookdesign">
+    {/* <div className="hookdesign">
     <Titlechange/>
-        </div>
+        </div> */}
+{/* 
+        <Useeffect/> */}
 
-    
+        <Pokemon/>
        
        
     </>

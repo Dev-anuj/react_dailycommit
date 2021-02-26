@@ -1,7 +1,7 @@
 
 today 
 
-1. React hook challenge - title change using useEffect .
+1. Api data fetch using axios async await  .
 
 
 
