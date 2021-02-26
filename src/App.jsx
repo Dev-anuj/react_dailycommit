@@ -30,6 +30,7 @@ import Contextapi from './Contextapi';
 import Useeffect from './Useeffect';
 import Titlechange from './Titlechange';
 import Pokemon from './Pokemon';
+import Movies from './Movies';
 
 // const type="Action";
 
@@ -142,7 +143,8 @@ function App(){
 {/* 
         <Useeffect/> */}
 
-        <Pokemon/>
+        {/* <Pokemon/> */}
+        <Movies/>
        
        
     </>
