@@ -9,6 +9,7 @@ const Movies=()=>{
     const[title,setTitle]=useState();
     const[year,setYear]=useState();
     const[rating,setRating]=useState();
+    const[nf,setNf]=useState();
 
    const valueTaker=(event)=>{
      setNum(event.target.value);
@@ -22,14 +23,16 @@ const Movies=()=>{
    
     setTv(event.target.value);
   };
-
+  
+ 
 
    useEffect(()=>{
       
        const season =`&Season=${num}`;
        const Episode=`&Episode=${epi}`;
-       const Name=`${tv}`;
- 
+       var Name=`${tv}`;
+      
+    
        async function getData(){
            const res= await axios.get(`http://www.omdbapi.com/?t=${Name}${season}${Episode}&apikey=9d52acb0`);
            console.log(res);
@@ -38,6 +41,7 @@ const Movies=()=>{
            setYear(res.data.Year);
            setRating(res.data.imdbRating);
            setImg(res.data.Poster);
+           setNf(res.data.Error);
 
        }
        getData();
@@ -78,7 +82,7 @@ const Movies=()=>{
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
-                <option value="6">6</option>
+                <option value="19">19</option>
             </select>
 
            
@@ -89,7 +93,7 @@ const Movies=()=>{
                 <h1>{title}</h1>
                 <h2>{year}</h2>
                 <h3>{rating}</h3>
-                
+                <h4>{nf}</h4>
             </div>
 
           </>);
