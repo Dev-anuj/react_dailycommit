@@ -144,7 +144,8 @@ function App(){
         <Useeffect/> */}
 
         {/* <Pokemon/> */}
-        <Movies/>
+        
+        <Movies />
        
        
     </>

@@ -5,6 +5,11 @@ const Movies=()=>{
     const[num,setNum]=useState("");
     const[epi,setEpi]=useState("");
     const[tv,setTv]=useState("");
+
+    const[btn,setBtn]=useState();
+    const[sbtn,ssetBtn]=useState();
+    const[ebtn,esetBtn]=useState();
+
     const[img,setImg]=useState();
     const[title,setTitle]=useState();
     const[year,setYear]=useState();
@@ -23,14 +28,29 @@ const Movies=()=>{
    
     setTv(event.target.value);
   };
+
+  const whenclick=()=>{
+    setBtn(()=>{
+      return tv;
+    } );
+    ssetBtn(()=>{
+      return num;
+    } );
+    esetBtn(()=>{
+      return epi;
+    } );
+
+
+
+  };
   
  
 
    useEffect(()=>{
       
-       const season =`&Season=${num}`;
-       const Episode=`&Episode=${epi}`;
-       var Name=`${tv}`;
+       const season =`&Season=${sbtn}`;
+       const Episode=`&Episode=${ebtn}`;
+       var Name=`${btn}`;
       
     
        async function getData(){
@@ -59,7 +79,8 @@ const Movies=()=>{
             
             <h1>select season</h1>
             <select value={num} onChange={valueTaker} >
-            <option value=""></option>
+            
+            <option value="">no season</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -76,16 +97,18 @@ const Movies=()=>{
             <h1>select Episode</h1>
             
             <select value={epi} onChange={epiTaker} >
-            <option value=""></option>
+           
+            <option value="">no episode</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
-                <option value="19">19</option>
+                <option value="19">20</option>
             </select>
 
-           
+           <br/>
+           <button onClick={whenclick}>+</button>
              
             </div>
             <div className="hookdesign" style={{color:"white"}}>
@@ -95,7 +118,7 @@ const Movies=()=>{
                 <h3>{rating}</h3>
                 <h4>{nf}</h4>
             </div>
-
+        
           </>);
 }
 
